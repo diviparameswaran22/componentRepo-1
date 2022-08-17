@@ -1,0 +1,61 @@
+CRITICAL - 2022-07-29 03:05:15 --> Too few arguments to function App\Controllers\Mycon::secondMethod(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Mycon.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mycon->secondMethod()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mycon))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 04:25:21 --> Class 'App\Models\FirstModel' not found
+in APPPATH\Controllers\Mycon.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mycon->secondMethod()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mycon))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 04:30:35 --> Class 'App\Controllers\FirstModel' not found
+in APPPATH\Controllers\Mycon.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mycon->secondMethod()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mycon))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 04:31:08 --> Class 'App\Models\FirstModel' not found
+in APPPATH\Controllers\Mycon.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mycon->secondMethod()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mycon))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 04:31:10 --> Class 'App\Models\FirstModel' not found
+in APPPATH\Controllers\Mycon.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mycon->secondMethod()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mycon))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 04:31:15 --> Class 'App\Models\FirstModel' not found
+in APPPATH\Controllers\Mycon.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mycon->secondMethod()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mycon))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 05:58:46 --> Call to undefined method App\Controllers\NewHelpers::initController()
+in SYSTEMPATH\CodeIgniter.php on line 859.
+ 1 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 05:59:27 --> Call to undefined method App\Controllers\NewHelpers::initController()
+in SYSTEMPATH\CodeIgniter.php on line 859.
+ 1 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 05:59:49 --> Call to undefined method App\Controllers\NewHelpers::initController()
+in SYSTEMPATH\CodeIgniter.php on line 859.
+ 1 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 05:59:56 --> Call to undefined method App\Controllers\NewHelpers::initController()
+in SYSTEMPATH\CodeIgniter.php on line 859.
+ 1 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-29 06:01:12 --> Call to undefined method App\Controllers\NewHelpers::initController()
+in SYSTEMPATH\CodeIgniter.php on line 859.
+ 1 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
